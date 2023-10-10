@@ -16,7 +16,7 @@ Yet another asynchronous API wrapper designed to simplify the process of integra
 
 To install Rey, simply use pip:
 ```bash
-pip install rey
+pip install reyline
 ```
 
 ## Contributing
