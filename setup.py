@@ -8,7 +8,7 @@ setup(
     author = 'TheGenocide',
     author_email = 'luke.genesis.hyder@gmail.com',
     url = 'https://github.com/TheGenocides/rey',
-    download_url = 'https://github.com/TheGenocides/rey/archive/refs/tags/first-release.tar.gz',
+    download_url = 'https://github.com/TheGenocides/rey/archive/refs/tags/v0.1.tar.gz',
     keywords = ['line-bot', 'apiwrapper', 'line', 'api'],
     install_requires=[
         'aiohttp'
