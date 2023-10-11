@@ -7,7 +7,7 @@ logger = logging.getLogger(__name__)
 logging.basicConfig(
     level=logging.DEBUG,
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
-    filename='myapp.log',
+    filename=__name__,
     filemode='w'
 )
 logger.setLevel(logging.DEBUG)
@@ -69,5 +69,5 @@ class ReyClient:
                 },
                 json=json_data
             ) as res:
-                logger.debug(f"[{res.status}] Attepting to send message: json data:\n{json_data}\nresponse: {await res.json()}")
+                logger.debug(f"[{res.status}] Attempting to send message: json data:\n{json_data}\nresponse: {await res.json()}")
                 return res

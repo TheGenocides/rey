@@ -12,6 +12,8 @@ Yet another asynchronous API wrapper designed to simplify the process of integra
 
 - **Customizable**: You can customize and extend Rey to fit the specific requirements of your Line Messaging project.
 
+- **Logging**: Re
+
 ## Installation
 
 To install Rey, simply use pip:
